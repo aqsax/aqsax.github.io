@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+/* Pen-specific styles */
+* {
+  box-sizing: border-box;
+}
+html, body, section, div {
+  height: 100%;
+  background-color: #1a1a1a;
+}
+
+body { 
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  text-align: center;
+  text-shadow: 0 2px 2px #1a1a1a;
+}
+
+.blur-background {
+  background-image: url('https://raw.githubusercontent.com/aqsax/aqsax.github.io/main/Portfolio/images/blur-background.jpg');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+section {
+  width: 100%%;
+}
+
+article {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  padding: 1rem;
+  text-align: left;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size:3.45rem;
+  margin: 2.5rem 1rem 1rem 1rem;
+  position: absolute;
+  font-family: 'Dancing Script';
+}
+
+
+h2 {
+  font-size:2.5rem;
+  margin: 7rem 1rem 1rem 0;
+}
+
+p {
+  font-size:1.25rem;
+  margin: 1rem 1rem 1rem 0;
+}
+
+#copyrights {
+  font-size:1rem;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.buttone {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  align-content: left;
+  flex-wrap: wrap;
+  width: 200px;
+  margin: 0;
+  min-height: 4px;
+}
+.btn {
+  flex: 1 1 auto;
+  margin: 4px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-2 {
+  background-image: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+}
+
+
+#footer {
+  font-size:1rem;
+  margin: 1rem 1rem 1rem 0;
+}
+
+article {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  padding: 1rem;
+  text-align: left;
+  transform: translate(-50%, -50%);
+}
+
+/* Pattern styles */
+.left-half {
+  background-color: #1a1a1a;
+  float: left;
+  width: 50%;
+}
+.right-half {
+    float: left;
+  width: 50%;
+}
+
+.right-half {
+    background-image: url('https://raw.githubusercontent.com/aqsax/aqsax.github.io/main/Portfolio/images/rightpanel2.jpg');
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+   }
