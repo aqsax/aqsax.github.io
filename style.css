@@ -5,10 +5,11 @@
 /* Pen-specific styles */
 * {
   box-sizing: border-box;
+  border: none;
 }
 html, body, section, div {
   height: 100%;
-  background-color: #1a1a1a;
+  border: none;
 }
 
 body { 
@@ -18,23 +19,25 @@ body {
   line-height: 150%;
   text-align: center;
   text-shadow: 0 2px 2px #1a1a1a;
+  border: none;
 }
 
 section {
   width: 100%%;
+  border: none;
 }
 
 article {
   position: relative;
   top: 50%;
   left: 50%;
-  padding: 1rem;
   text-align: left;
   transform: translate(-50%, -50%);
+  border: none;
 }
 
 h1 {
-  font-size:3.45rem;
+  font-size:2rem;
   margin: 2.5rem 1rem 1rem 1rem;
   position: absolute;
   font-family: 'Dancing Script';
@@ -42,8 +45,10 @@ h1 {
 
 
 h2 {
-  font-size:2.5rem;
+  font-size:5.75rem;
   margin: 7rem 1rem 1rem 0;
+  text-align: center;
+  font-family: 'Dancing Script';
 }
 
 p {
@@ -101,7 +106,6 @@ article {
   position: relative;
   top: 50%;
   left: 50%;
-  padding: 1rem;
   text-align: left;
   transform: translate(-50%, -50%);
 }
@@ -111,6 +115,7 @@ article {
   background-color: #1a1a1a;
   float: left;
   width: 50%;
+  padding-left: 1.5rem;
 }
 
 .left-half {
@@ -119,13 +124,13 @@ article {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
+  background-size: cover;  
 }
 
 .right-half {
-    float: left;
+  float: left;
   width: 50%;
+  border: none;
 }
 
 .right-half {
