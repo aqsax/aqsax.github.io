@@ -21,7 +21,7 @@ body {
 }
 
 .blur-background {
-  background-image: url('https://raw.githubusercontent.com/aqsax/aqsax.github.io/main/Portfolio/images/blur-background.jpg');
+  background-image: url('https://raw.githubusercontent.com/aqsax/aqsax.github.io/main/images/blur-background.jpg');
   width: 100%;
   height: 100%;
   background-position: center;
@@ -128,7 +128,7 @@ article {
 }
 
 .right-half {
-    background-image: url('https://raw.githubusercontent.com/aqsax/aqsax.github.io/main/Portfolio/images/rightpanel2.jpg');
+    background-image: url('https://raw.githubusercontent.com/aqsax/aqsax.github.io/main/images/rightpanel2.jpg');
     height: 100%;
     width: 50%;
     background-position: center;
